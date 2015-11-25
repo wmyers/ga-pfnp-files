@@ -1,0 +1,38 @@
+/* Old skool */
+
+.display-table-container {
+  display: table;
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.display-table-item {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  /*background-color: tomato;*/
+}
+
+
+/* Flexbox */
+
+.flexbox-container {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+}
+
+.flexbox-item {
+  margin: auto;
+  /* Magic! */
+  /*background-color: tomato;*/
+}

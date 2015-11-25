@@ -1,0 +1,30 @@
+
+
+a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sg-fifty {
+  background-color: red;
+  color: white;
+}
+.sg-fifty h1 {
+  padding-left: 10px;
+}
+a.sg-fifty {
+  padding: 10px;
+  border-radius: 5px;
+}
+a:hover.sg-fifty  {
+  background-color: #FFCC00;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

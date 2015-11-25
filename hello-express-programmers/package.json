@@ -1,0 +1,12 @@
+{
+  "name": "hello-express-programmers",
+  "version": "1.0.0",
+  "description": "simple express app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Will Myers",
+  "license": "ISC"
+}

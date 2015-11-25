@@ -1,0 +1,50 @@
+@font-face { font-family: Digi; src: url('../fonts/DS-DIGI.TTF'); }
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  background: gainsboro;
+}
+
+main {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px;
+}
+
+main:after {
+  content: "";
+  display: block;
+}
+
+footer, main:after {
+  height: 142px;
+}
+
+footer {
+  background: orange;
+}
+
+header {
+  background: tomato;
+  height: 60px;
+}
+
+nav {
+  background: ivory;
+  height: 40px;
+}
+
+article{
+  background: gainsboro;
+  font-family: Digi;
+  padding: 10px;
+}
+
+h2 {
+  font-family: Arial;
+  display:inline;
+  color: black;
+}

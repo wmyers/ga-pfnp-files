@@ -1,0 +1,17 @@
+.report {
+  width: 200px;
+  height: 400px;
+  border: 2px solid black;
+  overflow: auto;
+  background-color: gainsboro;
+  color: gray;
+}
+
+.first > p::first-letter {
+  font-size: 1.8em;
+  font-weight: bold;
+  padding: 0.08em;
+  margin-right: 2px;
+  border: 1px solid indianred;
+  border-radius: 3px;
+}
